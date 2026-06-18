@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>document.documentElement.className+=' js';</script>
+<title>Über mich – Andreas Müller | Hochzeitsfotograf aus Syke & Bremen</title>
+<meta name="description" content="Lernt Andreas Müller kennen – euren Hochzeitsfotografen aus Syke bei Bremen. Authentische, unaufdringliche Reportagen, echte Emotionen und zuverlässige Technik. Qualifiziert an der Akademie für Hochzeitsprofis.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.hochzeitsportraits-mueller.de/ueber-mich.html">
+<meta name="author" content="Andreas Müller Hochzeitsportraits">
+
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Andreas Müller Hochzeitsportraits">
+<meta property="og:title" content="Über mich – Andreas Müller | Hochzeitsfotograf aus Syke & Bremen">
+<meta property="og:description" content="Authentische, unaufdringliche Hochzeitsreportagen aus Syke bei Bremen – echte Emotionen, persönlich begleitet.">
+<meta property="og:url" content="https://www.hochzeitsportraits-mueller.de/ueber-mich.html">
+<meta property="og:image" content="https://www.hochzeitsportraits-mueller.de/assets/Axel_Jahnke_Fotografie389.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+    --ink:#0E1322;        /* deep blue-black (logo dark) */
+    --navy:#142557;       /* deep navy (logo) */
+    --royal:#3361E1;      /* brand blue accent (logo) */
+    --royal-deep:#2549a8;
+    --cream:#F7F2E9;      /* warm ivory base */
+    --cream-2:#FBF8F1;
+    --sand:#EFE6D6;       /* warm sand surface */
+    --line:#DED2BD;       /* warm hairline */
+    --taupe:#9A8C76;      /* muted warm caption */
+    --white:#ffffff;
+    --display:'Playfair Display',Georgia,serif;
+    --body:'Raleway',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    --maxw:1180px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--body);
+    color:var(--ink);
+    background:var(--cream);
+    line-height:1.65;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+
+  /* ---- eyebrow / shared bits ---- */
+  .eyebrow{
+    font-family:var(--body);
+    font-weight:600;
+    font-size:.72rem;
+    letter-spacing:.32em;
+    text-transform:uppercase;
+    color:var(--taupe);
+    display:inline-flex;
+    align-items:center;
+    gap:.8em;
+  }
+  .eyebrow::before{
+    content:"";
+    width:34px;height:1px;background:var(--royal);
+    display:inline-block;
+  }
+  .eyebrow.center{justify-content:center}
+  h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.12;letter-spacing:-.01em}
+  .lead{font-size:1.06rem;color:#3a3f4c}
+
+  /* ---- buttons ---- */
+  .btn{
+    display:inline-block;
+    font-family:var(--body);font-weight:600;
+    font-size:.8rem;letter-spacing:.13em;text-transform:uppercase;
+    padding:15px 30px;border-radius:2px;
+    transition:.25s ease;cursor:pointer;border:1px solid transparent;
+  }
+  .btn-primary{background:var(--royal);color:#fff}
+  .btn-primary:hover{background:var(--royal-deep)}
+  .btn-ghost{border-color:rgba(255,255,255,.7);color:#fff}
+  .btn-ghost:hover{background:#fff;color:var(--ink)}
+  .btn-line{border-color:var(--ink);color:var(--ink)}
+  .btn-line:hover{background:var(--ink);color:var(--cream)}
+
+  /* ---- header ---- */
+  header{
+    position:fixed;top:0;left:0;right:0;z-index:50;
+    background:rgba(247,242,233,.92);
+    backdrop-filter:saturate(140%) blur(10px);
+    border-bottom:1px solid var(--line);
+    transition:.3s ease;
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;height:104px}
+  .brand img{height:62px;width:auto;display:block}
+  .menu{display:flex;align-items:center;gap:34px;list-style:none}
+  .menu a{
+    font-size:.82rem;letter-spacing:.08em;font-weight:500;color:var(--ink);
+    position:relative;padding:4px 0;
+  }
+  .menu a::after{
+    content:"";position:absolute;left:0;bottom:-2px;height:1px;width:0;background:var(--royal);transition:.25s;
+  }
+  .menu a:hover::after{width:100%}
+  .menu .nav-cta{
+    background:var(--royal);color:#fff;padding:11px 22px;border-radius:2px;
+    font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;
+  }
+  .menu .nav-cta::after{display:none}
+  .menu .nav-cta:hover{background:var(--royal-deep)}
+  .burger{display:none;background:none;border:0;cursor:pointer;flex-direction:column;gap:5px;padding:8px}
+  .burger span{width:24px;height:2px;background:var(--ink);display:block;transition:.25s}
+
+  /* ---- hero ---- */
+  .hero{display:grid;grid-template-columns:1.04fr 1fr;min-height:100vh}
+  .hero-text{background:var(--cream);display:flex;align-items:center;justify-content:center;padding:120px 5.5vw 70px}
+  .hero-inner{max-width:520px;text-align:center}
+  .hero-photo{position:relative;overflow:hidden;background:var(--sand)}
+  .hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 32%}
+  .hero .eyebrow{color:var(--taupe);justify-content:center}
+  .hero .eyebrow::before{background:var(--royal)}
+  .hero h1{
+    color:var(--ink);margin:.45em 0 .4em;
+    font-size:clamp(2.1rem,3.4vw,3.4rem);font-weight:500;
+  }
+  .hero h1 em{font-style:italic;font-weight:400;color:var(--royal)}
+  .hero p{font-size:1.08rem;margin:0 0 32px;color:#454a55;font-weight:400}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+
+  /* ---- section base ---- */
+  section{padding:clamp(64px,9vw,118px) 0}
+  .center{text-align:center}
+
+  /* ---- philosophy ---- */
+  .philosophy{background:var(--cream);text-align:center}
+  .philosophy .quote{
+    font-family:var(--display);font-style:italic;font-weight:400;
+    font-size:clamp(1.7rem,3.5vw,2.7rem);line-height:1.3;color:var(--ink);
+    max-width:900px;margin:26px auto 0;
+  }
+  .philosophy .quote .hl{color:var(--royal);font-style:italic}
+  .philosophy .sub{max-width:600px;margin:28px auto 0;color:#4a4f5b}
+
+  /* ---- about ---- */
+  .about{background:var(--cream-2)}
+  .about-grid{display:grid;grid-template-columns:0.85fr 1fr;gap:clamp(34px,5vw,72px);align-items:center}
+  .about-photo{position:relative}
+  .about-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 22%;border-radius:2px}
+  .about-photo .frame{position:absolute;inset:14px -14px -14px 14px;border:1px solid var(--royal);z-index:-1;border-radius:2px}
+  .about h2{font-size:clamp(1.9rem,3.6vw,2.7rem);margin:.4em 0 .6em}
+  .about p{margin-bottom:1.1em;color:#3f444f}
+  .about .sign{font-family:var(--display);font-style:italic;font-size:1.5rem;color:var(--navy);margin-top:.2em}
+
+  /* ---- parallax detail band ---- */
+  .parallax{
+    position:relative;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;
+    padding:clamp(96px,16vw,190px) 0;
+    background-image:linear-gradient(rgba(11,15,26,.52),rgba(11,15,26,.52)),url('assets/H2-36.jpg');
+    background-size:cover;background-position:center 42%;background-attachment:fixed;
+  }
+  .parallax .eyebrow{color:rgba(255,255,255,.88);justify-content:center}
+  .parallax .eyebrow::before{background:#fff}
+  .parallax h2{
+    color:#fff;font-size:clamp(1.8rem,4vw,3rem);max-width:820px;margin:.5em auto 0;font-weight:500;
+    text-shadow:0 2px 26px rgba(0,0,0,.45);
+  }
+  .parallax h2 em{font-style:italic;font-weight:400}
+
+  /* ---- packages ---- */
+  .packages{background:var(--sand)}
+  .pk-head{max-width:720px;margin:0 auto 12px;text-align:center}
+  .pk-head h2{font-size:clamp(2rem,4vw,2.9rem);margin:.35em 0 .5em}
+  .pk-intro{max-width:760px;margin:0 auto 54px;text-align:center;color:#4a4f5b}
+  .pk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .card{
+    background:var(--cream-2);border:1px solid var(--line);border-radius:3px;
+    padding:38px 30px;display:flex;flex-direction:column;transition:.3s ease;position:relative;
+  }
+  .card:hover{transform:translateY(-6px);box-shadow:0 22px 50px -28px rgba(20,37,87,.4);border-color:var(--royal)}
+  .card.featured{background:var(--navy);color:var(--cream);border-color:var(--navy)}
+  .card.featured .pk-name,.card.featured .pk-price{color:#fff}
+  .card.featured .pk-feat li{color:rgba(255,255,255,.85);border-color:rgba(255,255,255,.14)}
+  .card.featured .pk-feat li::before{color:var(--royal)}
+  .card .tag{
+    position:absolute;top:-11px;left:50%;transform:translateX(-50%);
+    background:var(--royal);color:#fff;font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;
+    font-weight:600;padding:5px 14px;border-radius:2px;white-space:nowrap;
+  }
+  .pk-name{font-family:var(--display);font-size:1.7rem;font-weight:500;color:var(--ink)}
+  .pk-hours{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--taupe);margin-top:6px}
+  .card.featured .pk-hours{color:rgba(255,255,255,.6)}
+  .pk-feat{list-style:none;margin:24px 0;flex:1}
+  .pk-feat li{font-size:.92rem;padding:9px 0 9px 26px;position:relative;border-bottom:1px solid var(--line);color:#454a55}
+  .pk-feat li:last-child{border-bottom:0}
+  .pk-feat li::before{content:"—";position:absolute;left:0;color:var(--royal);font-weight:600}
+  .pk-price{font-family:var(--display);font-size:1.35rem;color:var(--ink);margin-bottom:20px}
+  .pk-price small{font-family:var(--body);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe);display:block;margin-bottom:2px}
+  .pk-foot{font-size:.8rem;color:var(--taupe);text-align:center;max-width:780px;margin:30px auto 0;line-height:1.6}
+  .pk-foot sup{color:var(--royal)}
+  .pk-more{text-align:center;margin-top:40px}
+  .pk-more a{font-weight:600;letter-spacing:.06em;color:var(--navy);border-bottom:1px solid var(--royal);padding-bottom:3px}
+  .pk-more a:hover{color:var(--royal)}
+
+  /* ---- features / included ---- */
+  .feats{background:var(--cream)}
+  .feat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;margin-top:54px}
+  .feat{text-align:left}
+  .feat svg{width:30px;height:30px;stroke:var(--royal);stroke-width:1.4;fill:none;margin-bottom:16px}
+  .feat h3{font-size:1.12rem;font-weight:600;font-family:var(--display);margin-bottom:8px}
+  .feat p{font-size:.9rem;color:#4a4f5b}
+
+  /* ---- trust / seal ---- */
+  .trust{background:var(--cream-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .trust-grid{display:grid;grid-template-columns:auto 1fr;gap:46px;align-items:center}
+  .seal{width:138px;height:138px;flex-shrink:0;transition:.3s}
+  .seal:hover{transform:rotate(-4deg) scale(1.04)}
+  .trust h2{font-size:clamp(1.6rem,3vw,2.2rem);margin:.3em 0 .5em}
+  .trust p{color:#454a55;max-width:640px}
+  .trust .area{margin-top:18px;display:flex;flex-wrap:wrap;gap:10px}
+  .trust .area span{
+    font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--navy);
+    border:1px solid var(--line);border-radius:40px;padding:7px 16px;background:var(--cream);
+  }
+  .trust a.seal-link{display:inline-block}
+
+  /* ---- final CTA ---- */
+  .cta{background:var(--navy);color:#fff;text-align:center;position:relative;overflow:hidden}
+  .cta .eyebrow{color:rgba(255,255,255,.8)}
+  .cta .eyebrow::before{background:var(--royal)}
+  .cta h2{color:#fff;font-size:clamp(2rem,4.4vw,3.1rem);margin:.4em auto .55em;max-width:760px}
+  .cta h2 em{font-style:italic;color:#fff}
+  .cta p{color:rgba(255,255,255,.82);max-width:520px;margin:0 auto 36px;font-weight:300}
+  .cta-links{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;align-items:center}
+  .cta-mail{font-size:.95rem;letter-spacing:.04em;color:rgba(255,255,255,.85);border-bottom:1px solid var(--royal);padding-bottom:2px}
+  .cta-mail:hover{color:#fff}
+
+  /* ---- footer ---- */
+  footer{background:var(--ink);color:rgba(255,255,255,.72);padding:70px 0 34px;font-size:.9rem}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;padding-bottom:46px;border-bottom:1px solid rgba(255,255,255,.1)}
+  .foot-brand img{height:58px;margin-bottom:18px;filter:brightness(0) invert(1);opacity:.92}
+  .foot-brand p{font-weight:300;line-height:1.7;max-width:280px}
+  footer h4{font-family:var(--body);font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:#fff;margin-bottom:18px;font-weight:600}
+  footer ul{list-style:none}
+  footer li{margin-bottom:11px}
+  footer a:hover{color:#fff}
+  .foot-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:24px;flex-wrap:wrap;gap:12px;font-size:.8rem;color:rgba(255,255,255,.5)}
+  .foot-bottom a{color:rgba(255,255,255,.55)}
+
+  /* ---- reveal (progressive enhancement: hidden only when JS present) ---- */
+  .js .reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+  .js .reveal.in{opacity:1;transform:none}
+
+  /* ---- responsive ---- */
+  @media(max-width:880px){
+    .menu{
+      position:fixed;top:84px;right:0;left:0;background:var(--cream);
+      flex-direction:column;align-items:flex-start;gap:0;padding:10px 28px 24px;
+      border-bottom:1px solid var(--line);
+      transform:translateY(-130%);transition:.35s ease;z-index:40;
+    }
+    .menu.open{transform:translateY(0)}
+    .menu li{width:100%}
+    .menu a{display:block;padding:14px 0;width:100%;border-bottom:1px solid var(--line)}
+    .menu a::after{display:none}
+    .menu .nav-cta{display:inline-block;margin-top:14px}
+    .burger{display:flex}
+    .brand img{height:48px}
+    .nav{height:84px}
+    .hero{grid-template-columns:1fr;min-height:auto}
+    .hero-photo{order:-1;height:54vh;min-height:340px}
+    .hero-photo img{object-position:60% 28%}
+    .hero-text{padding:52px 28px 60px}
+    .hero-inner{max-width:560px}
+    .burger.x span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+    .burger.x span:nth-child(2){opacity:0}
+    .burger.x span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+    .about-grid{grid-template-columns:1fr;gap:40px}
+    .about-photo{max-width:420px}
+    .pk-grid{grid-template-columns:1fr;max-width:440px;margin:0 auto}
+    .feat-grid{grid-template-columns:1fr 1fr;gap:30px 24px}
+    .trust-grid{grid-template-columns:1fr;gap:26px;text-align:center}
+    .seal{margin:0 auto}
+    .trust .area{justify-content:center}
+    .foot-grid{grid-template-columns:1fr 1fr;gap:32px}
+    .parallax{background-attachment:scroll;background-position:center}
+  }
+  @media(max-width:520px){
+    .feat-grid{grid-template-columns:1fr}
+    .foot-grid{grid-template-columns:1fr}
+    .hero p{font-size:1rem}
+  }
+  @media(prefers-reduced-motion:reduce){
+    *{animation:none!important;scroll-behavior:auto}
+    .reveal{opacity:1;transform:none;transition:none}
+    .parallax{background-attachment:scroll}
+  }
+
+/* ===== Subpages (shared) ===== */
+.menu a.active{color:var(--royal)}
+.menu a.active::after{width:100%}
+
+.pagehead{background:var(--cream-2);padding-top:clamp(146px,17vh,196px)}
+.pagehead h1{font-size:clamp(2rem,3.8vw,3rem);margin:.32em 0 .5em;font-weight:500;color:var(--ink)}
+.pagehead h1 em{font-style:italic;font-weight:400;color:var(--royal)}
+.pagehead .lead{color:#3f444f;margin-bottom:1.1em}
+.pagehead p{color:#3f444f;margin-bottom:1em}
+.sign{font-family:var(--display);font-style:italic;font-size:1.5rem;color:var(--navy);margin-top:.3em}
+
+.story{background:var(--cream)}
+.story .wrap{max-width:760px}
+.story p{margin-bottom:1.2em;color:#3f444f;font-size:1.06rem}
+.story p:last-child{margin-bottom:0}
+
+.pullquote{
+  font-family:var(--display);font-style:italic;font-weight:400;
+  font-size:clamp(1.5rem,3vw,2.3rem);line-height:1.32;color:var(--ink);
+  text-align:center;max-width:840px;margin:0 auto;
+}
+.pullquote .hl{color:var(--royal)}
+
+.parallax.alt{
+  background-image:linear-gradient(rgba(11,15,26,.56),rgba(11,15,26,.56)),url('assets/H2_DSC-161.jpg');
+  background-position:center 30%;
+}
+
+</style>
+</head>
+<body>
+
+<header id="top">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="Andreas Müller Hochzeitsportraits – Startseite">
+      <img src="assets/logo-transparent-svg.svg" alt="Andreas Müller Hochzeitsportraits">
+    </a>
+    <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="menu" id="menu">
+      <li><a href="index.html">Start</a></li>
+      <li><a class="active" href="ueber-mich.html" aria-current="page">Über mich</a></li>
+      <li><a href="hochzeitspakete.html">Hochzeitspakete</a></li>
+      <li><a href="weitere-shootings.html">Weitere Shootings</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a class="nav-cta" href="kontakt.html">Termin anfragen</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- ===== INTRO / PORTRAIT ===== -->
+<section class="pagehead">
+  <div class="wrap about-grid">
+    <div class="about-photo reveal">
+      <img src="assets/Axel_Jahnke_Fotografie389.jpg" alt="Andreas Müller, Hochzeitsfotograf aus Syke, mit seiner Kamera">
+      <div class="frame" aria-hidden="true"></div>
+    </div>
+    <div class="reveal">
+      <span class="eyebrow">Über mich</span>
+      <h1>Hallo, ich bin Andreas – <em>euer Hochzeitsfotograf.</em></h1>
+      <p class="lead">Ich komme aus Syke in der Nähe von Bremen und halte mit Leidenschaft die besonderen Momente eurer Geschichte fest – aufmerksam, authentisch und unaufdringlich.</p>
+      <p>Besonders gern bin ich auf Borkum unterwegs: Hier kann ich wunderbar entspannen, Energie tanken und immer wieder besondere Bilder am Meer und in den Dünen machen – übrigens auch ein großartiges Ziel für eine Strandhochzeit mit traumhaften Sonnenauf- und -untergängen.</p>
+      <a href="kontakt.html" class="btn btn-line">Lasst uns kennenlernen</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== IMAGE BAND ===== -->
+<section style="padding:0">
+  <img src="assets/Axel_Jahnke_Fotografie388.jpg" alt="Andreas Müller fotografiert bei einer Hochzeit vor einem Blumenbogen" style="width:100%;height:clamp(320px,54vh,580px);object-fit:cover;object-position:center 26%;display:block">
+</section>
+
+<!-- ===== STORY ===== -->
+<section class="story">
+  <div class="wrap reveal">
+    <p>Neben den großen Augenblicken sind es oft die kleinen Gesten, ehrlichen Emotionen und unvergesslichen Begegnungen, die einen Hochzeitstag einzigartig machen. Genau diese Erinnerungen möchte ich für euch bewahren – und Bilder schaffen, die euch auch viele Jahre später noch zurück in genau diesen besonderen Moment versetzen.</p>
+    <p>Neben einem kreativen Blick und einem hohen Anspruch an meine Arbeit setze ich auf professionelle und zuverlässige Technik. Meine Kameras speichern eure Bilder direkt auf zwei Speicherkarten gleichzeitig, sodass bereits während der Aufnahme eine Sicherungskopie entsteht. So könnt ihr euch darauf verlassen, dass eure wertvollen Erinnerungen bestmöglich geschützt sind.</p>
+    <p>Jede Hochzeit ist einzigartig – und genauso behandle ich auch jede fotografische Begleitung. Mir ist eine persönliche und entspannte Atmosphäre wichtig, damit ihr euch vor der Kamera wohlfühlt und Bilder entstehen, die wirklich zu euch passen.</p>
+  </div>
+</section>
+
+<!-- ===== PARALLAX QUOTE ===== -->
+<section class="parallax alt" aria-label="Hochzeitsreportage von Andreas Müller">
+  <div class="wrap">
+    <span class="eyebrow">Mein Anspruch</span>
+    <h2>Statt gestellter Szenen stehen für mich <em>echte Emotionen</em> und natürliche Augenblicke im Mittelpunkt.</h2>
+  </div>
+</section>
+
+<!-- ===== VALUES ===== -->
+<section class="feats">
+  <div class="wrap">
+    <div class="center reveal" style="max-width:680px;margin:0 auto">
+      <span class="eyebrow center">Wie ich arbeite</span>
+      <h2 style="font-size:clamp(1.9rem,3.6vw,2.6rem);margin-top:.4em">Was euch bei mir erwartet</h2>
+    </div>
+    <div class="feat-grid">
+      <div class="feat reveal">
+        <svg viewBox="0 0 24 24"><path d="M3 8h3l2-3h8l2 3h3v11H3z"/><circle cx="12" cy="13" r="4"/></svg>
+        <h3>Echte Emotionen</h3>
+        <p>Natürliche Augenblicke und ehrliche Gefühle statt gestellter Posen – eure Geschichte, wie sie wirklich war.</p>
+      </div>
+      <div class="feat reveal">
+        <svg viewBox="0 0 24 24"><path d="M12 3C9 7 6 9 6 13a6 6 0 0 0 12 0c0-4-3-6-6-10z"/></svg>
+        <h3>Persönlich & entspannt</h3>
+        <p>Eine ruhige, vertraute Atmosphäre, in der ihr euch wohlfühlt – damit Bilder entstehen, die zu euch passen.</p>
+      </div>
+      <div class="feat reveal">
+        <svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+        <h3>Zuverlässige Technik</h3>
+        <p>Aufnahme auf zwei Speicherkarten gleichzeitig – eure Erinnerungen sind von der ersten Sekunde an doppelt gesichert.</p>
+      </div>
+      <div class="feat reveal">
+        <svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M14 3v5h5M8 13h8M8 17h6"/></svg>
+        <h3>Wedding Companion</h3>
+        <p>Mein exklusiver Begleiter mit Tipps, Inspiration und Empfehlungen – entspannt durch die ganze Planung.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRUST / SEAL ===== -->
+<section class="trust">
+  <div class="wrap trust-grid">
+    <a class="seal-link" href="https://www.hochzeitsprofis-akademie.de" target="_blank" rel="noopener" aria-label="Akademie für Hochzeitsprofis (öffnet in neuem Tab)">
+      <img class="seal" src="assets/Siegel_Fotografen.png" alt="Siegel: Qualifizierter Hochzeitsfotograf – Akademie für Hochzeitsprofis">
+    </a>
+    <div class="reveal">
+      <span class="eyebrow">Erfahrung &amp; Qualifikation</span>
+      <h2>Über 40 Jahre Leidenschaft für die Fotografie</h2>
+      <p>Was als Hobby begann, habe ich in den letzten Jahren mit gezielten Weiterbildungen vertieft – zuletzt als qualifizierter Hochzeitsfotograf an der <a href="https://www.hochzeitsprofis-akademie.de" target="_blank" rel="noopener" style="color:var(--royal);border-bottom:1px solid var(--royal)">Akademie für Hochzeitsprofis</a>. Gelistet bin ich außerdem im Wedding-Network. So wisst ihr von Anfang an, dass eure Erinnerungen in erfahrenen Händen liegen.</p>
+      <div class="area">
+        <span>bis 200 km um Syke</span>
+        <span>bundesweit</span>
+        <span>Ostfriesische Inseln</span>
+        <span>Strandhochzeiten</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="cta">
+  <div class="wrap">
+    <span class="eyebrow center">Lasst uns kennenlernen</span>
+    <h2>Ich freue mich darauf, <em>eure</em> Geschichte kennenzulernen.</h2>
+    <p>Erzählt mir von eurem großen Tag – in einem persönlichen Vorgespräch finden wir heraus, ob wir zueinander passen.</p>
+    <div class="cta-links">
+      <a href="kontakt.html" class="btn btn-primary">Termin anfragen</a>
+      <a href="hochzeitspakete.html" class="cta-mail">Hochzeitspakete ansehen</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="assets/logo-transparent-svg.svg" alt="Andreas Müller Hochzeitsportraits">
+        <p>Hochzeitsfotograf in Syke bei Bremen. Authentische Hochzeitsreportagen, Paar- und Strandhochzeiten – mit Herz und Erfahrung.</p>
+      </div>
+      <div>
+        <h4>Seiten</h4>
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="ueber-mich.html">Über mich</a></li>
+          <li><a href="hochzeitspakete.html">Hochzeitspakete</a></li>
+          <li><a href="weitere-shootings.html">Weitere Shootings</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="mailto:kontakt@hochzeitsportraits-mueller.de">kontakt@hochzeitsportraits-mueller.de</a></li>
+          <li><a href="tel:+4942429670011">0 42 42 / 967 00 11</a></li>
+          <li>Kornstr. 3<br>28857 Syke</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Folgt mir</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="https://www.hochzeitsprofis-akademie.de" target="_blank" rel="noopener">Akademie für Hochzeitsprofis</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Andreas Müller Hochzeitsportraits</span>
+      <span>
+        <a href="impressum.html">Impressum</a> &nbsp;·&nbsp;
+        <a href="datenschutz.html">Datenschutz</a> &nbsp;·&nbsp;
+        <a href="agb.html">AGB</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var burger=document.getElementById('burger'),menu=document.getElementById('menu');
+  burger.addEventListener('click',function(){
+    var open=menu.classList.toggle('open');
+    burger.classList.toggle('x',open);
+    burger.setAttribute('aria-expanded',open);
+  });
+  menu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click',function(){menu.classList.remove('open');burger.classList.remove('x');});
+  });
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+  },{threshold:.16});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+</script>
+</body>
+</html>
